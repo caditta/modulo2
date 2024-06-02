@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="shortcut icon" href="./img/Alien.png"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <div class="cabecera">
+        <div>
+            <img src="https://dummyimage.com/300x100/80D0C7/fff&text=HelpDesk" alt="" class="logo">
+        </div><br>  
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Quienes Somos</a></li>
+                    <li><a href="#">Planes</a></li>
+                    <li><a href="#">Contactenos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <form action="dashboard.html" class="formulario">
+        
+        <div class="inicio">
+            <div class="login">
+                <h4>Registrese para acceder a nuestra plataforma</h4>
+                <label for="usuario" class="usuario">Usuario:</label><br>
+                <input type="text" name="usuario" id="usuario" placeholder="Usuario o correo" class="form-control txtUsuario"><br><br>
+                <label for="contrasena" class="contrasena">Contraseña:</label><br>
+                <input type="password" name="contrasena" id="contrasena" placeholder="Contraseña" class="form-control txtContrasena"><br>
+                <input type="submit" value="Registrarse" class="btn btn-info registrarse">
+            </div>
+            <div>
+                <div class="ingrese">
+                <h4>Ingrese si ya tiene cuenta de usuario</h4>
+                <label for="iusuario" class="usuario">Usuario:</label><br>
+                <input type="text" name="usuario" id="iusuario" placeholder="Usuario o correo" class="form-control txtUsuario"><br><br>
+                <label for="icontrasena" class="contrasena">Contraseña:</label><br>
+                <input type="password" name="contrasena" id="icontrasena" placeholder="Contraseña" class="form-control txtContrasena"><br>
+                <input type="submit" value="Ingresar" class="btn btn-info ingresar">
+            </div>
+        </div>
+        
+    </form>
+</body>
+</html>
