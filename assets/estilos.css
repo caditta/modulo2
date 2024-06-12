@@ -1,0 +1,44 @@
+.fotoperfil{
+    width: 60%;
+    border-radius: 50px;
+    filter: grayscale(100%);
+    transition: all .6s ease;
+    display: block;
+    margin: 0px 0px 0px 70px;
+}
+.fotoperfil:hover{
+    filter: none;
+    filter: grayscale(0%);
+    transition: all .6s ease;
+    border-radius: 70px;
+}
+
+.perfil{
+    padding: 20px;
+    width: 25%;
+    height: 25%;
+    border: 5px;
+    border-radius: 15px;
+    background-color: #80D0C7;
+    transition: all .6s ease;
+    box-shadow: 10px 5px 5px black;
+}
+.perfil:hover{
+    border-radius: 35px;
+    transition: all .6s ease;
+}
+p{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+.redes{
+    display: inline-block;
+}
+a{
+    margin: 55px;
+}
