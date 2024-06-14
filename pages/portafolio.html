@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -16,17 +18,18 @@
         crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../assets/Alien.png" />
     <link rel="stylesheet" href="../assets/estilos.css">
-    <title>Dashboard</title>
+    <title>Prefil</title>
 </head>
+
 <body>
     <div class="cabecera">
         <div class="logo">
-            <img src="https://dummyimage.com/300x100/80D0C7/fff&text=HelpDesk" alt="" >
-        </div><br>  
+            <img src="https://dummyimage.com/300x100/80D0C7/fff&text=HelpDesk" alt="">
+        </div><br>
         <div class="menu">
             <nav>
                 <ul>
-                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="../index.html">Inicio</a></li>
                     <li><a href="#">Quienes Somos</a></li>
                     <li><a href="#">Planes</a></li>
                     <li><a href="#">Contactenos</a></li>
@@ -34,7 +37,7 @@
                     <li><a data-toggle="modal" data-target="#ingrese" class="imodal" href="#">Ingresar</a></li>
                 </ul>
             </nav>
-        </div><br>
+        </div>
         <div class="modal fade" id="ingrese" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -63,16 +66,27 @@
                 </div>
             </div>
         </div>
-    </div>
-    <form action="#">
-        
-        <div class="dashboard">
-            <H1>Hola Pagina en Mantenimiento</H1>
-            <img src="../assets/mantenimiento.webp" alt="Mantenimiento" class="imagen"><br>
-            <h3><a href="../index.html">Este enlace lo redigira al Inicio</a></h3>
-            
+    </div><br>
+    <form action="" class="">
+        <div class="perfil">
+            <div class="cajaperfil">
+                <img src="../assets/perfil.jpeg" alt="Foto Perfil" class="fotoperfil">
+            </div>
+            <div class="parrafo">
+                <h4>Carlos Andres Ditta Villa</h4>
+                <h5>Desarrollador FullStack React</h5>
+                <p>Apasionado por la tecnologia, la programacion e interaccion web.</p>
+                <p>Actualmente estudiando en la academia de Enyoi como desarrollador MERN</p>
+            </div>
+            <div class="redes">
+                <a href="https://github.com/caditta" target="_blank"><img src="../assets/git.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/caditta/" target="_blank"><img src="../assets/icons8-linkedin-50.png" alt=""></a>
+            </div>
+    
+    
         </div>
-        
     </form>
+    
 </body>
+
 </html>

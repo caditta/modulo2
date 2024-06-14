@@ -1,6 +1,6 @@
 /* Perfil CSS */
 
-.fotoperfil{
+.fotoperfil {
     width: 50%;
     border-radius: 50px;
     filter: grayscale(100%);
@@ -9,75 +9,93 @@
     margin-top: -30%;
     margin-bottom: 25px;
 }
-.fotoperfil:hover{
+
+.fotoperfil:hover {
     filter: none;
     filter: grayscale(0%);
     transition: all .6s ease;
     border-radius: 70px;
 }
 
-.perfil{
+.perfil {
     margin: 25px;
     border: 5px;
     border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.514);
+    background-color: #80d0c7b2;
     transition: all .6s ease;
     box-shadow: 10px 5px 5px black;
 }
-.perfil:hover{
+
+.perfil:hover {
     border-radius: 35px;
     transition: all .6s ease;
 }
-p{
+
+p {
     text-align: center;
 }
-h4{
+
+h4 {
     text-align: center;
     display: inline-block;
 }
-h5{
+
+h5 {
     text-align: center;
 }
-a{
+
+a {
     margin: 55px;
 }
+
+body {
+    background-color: white;
+}
+
 /* Index CSS */
-.login{
+.login {
     border-radius: 5%;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 30px;
     margin: 25px;
     margin-right: 300px;
 }
-.ingrese{
+
+.ingrese {
     border-radius: 5%;
     background-color: #80D0C7;
     padding: 30px;
     margin: 25px;
 }
-.inicio{
+
+.inicio {
     display: flex;
     align-items: flex-end;
 
 }
-.usuario, .contrasena{
+
+.usuario,
+.contrasena {
     font-weight: bold;
 }
-.txtUsuario, .txtContrasena{
+
+.txtUsuario,
+.txtContrasena {
     width: 60%;
 }
-nav lu{
+
+nav lu {
     list-style-type: none;
 }
-nav li{
+
+nav li {
     display: inline;
-    margin-right: 20px;
-    
 }
-.menu{
+/* Menu */
+.menu {
     background-color: #80D0C7;
-    
 }
+
 nav a {
     text-decoration: none;
     color: #fff;
@@ -87,40 +105,51 @@ nav a {
 nav a:hover {
     text-decoration: none;
 }
-.registrarse, .ingresar{
+
+.registrarse,
+.ingresar {
     color: white;
 }
-.imagen{
+
+.imagen {
     width: 30%;
     height: 30%;
 }
-.dashboard{
+
+.dashboard {
     text-align: center;
-    /* background-color: #80D0C7; */
 }
-.formulario, .dashboard{
+
+.formulario,
+.dashboard {
     background-color: #80D0C7;
 }
-.logo{
+
+.logo {
     width: 100%;
     background-color: #80D0C7;
 }
-.imodal{
+
+.imodal {
     text-decoration: none;
 }
-.cajaperfil{
+
+.cajaperfil {
     width: 25%;
 }
-.parrafo{
+
+.parrafo {
     width: 40%;
     text-align: center;
     margin-top: 40px;
 }
-.redes{
+
+.redes {
     width: 25%;
 }
 
-.parrafo, .redes, .cajaperfil{
-    display:  inline-block;
+.parrafo,
+.redes,
+.cajaperfil {
+    display: inline-block;
 }
-
