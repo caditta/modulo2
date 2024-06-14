@@ -1,10 +1,13 @@
+/* Perfil CSS */
+
 .fotoperfil{
-    width: 60%;
+    width: 50%;
     border-radius: 50px;
     filter: grayscale(100%);
     transition: all .6s ease;
-    display: block;
-    margin: 0px 0px 0px 70px;
+    margin-left: 70px;
+    margin-top: -30%;
+    margin-bottom: 25px;
 }
 .fotoperfil:hover{
     filter: none;
@@ -14,12 +17,11 @@
 }
 
 .perfil{
-    padding: 20px;
-    width: 25%;
-    height: 25%;
+    margin: 25px;
+    /* width: 50%; */
     border: 5px;
     border-radius: 15px;
-    background-color: #80D0C7;
+    background-color: rgba(255, 255, 255, 0.514);
     transition: all .6s ease;
     box-shadow: 10px 5px 5px black;
 }
@@ -32,16 +34,15 @@ p{
 }
 h4{
     text-align: center;
+    display: inline-block;
 }
 h5{
     text-align: center;
 }
-.redes{
-    display: inline-block;
-}
 a{
     margin: 55px;
 }
+/* Index CSS */
 .login{
     border-radius: 5%;
     /* border-style: solid;
@@ -114,3 +115,22 @@ nav a:hover {
 .imodal{
     text-decoration: none;
 }
+.cajaperfil{
+    width: 25%;
+    /* display: inline-block; */
+}
+.parrafo{
+    width: 40%;
+    /* display: inline-block; */
+    text-align: center;
+    margin-top: 40px;
+}
+.redes{
+    /* display: inline-block; */
+    width: 25%;
+}
+
+.parrafo, .redes, .cajaperfil{
+    display:  inline-block;
+}
+
