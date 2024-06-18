@@ -1,5 +1,5 @@
-.inicio {
-    background-color: rgba(127, 255, 212, 0.185);
+.inicio, .quienes-somos {
+    background-color: rgba(127, 255, 212, 0.288);
     margin-top: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -20,4 +20,44 @@ h4 {
 }
 .copy{
     color: antiquewhite;
+}
+.img-tienda{
+    width: 90%;
+    border-radius: 25px;
+}
+h2{
+    text-align: left;
+    margin-top: 100px;
+}
+.presentacion, .txt-presentacion, .tg-presentacion{
+    border: 2px solid rgba(255, 255, 255, 0.719);
+    border-radius: 20px;
+    padding: 6px;
+    margin: 8px;
+}
+.txt-presentacion h3, h1{
+    /* color: aqua; */
+    text-align: center;
+}
+.card img{
+    width: 45%;
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+.card{
+    padding-top: 12px;
+    margin-left: 60px;
+    margin-bottom: 25px;
+    height: 100%;
+}
+.card h5{
+    text-align: center;
+}
+.tg-presentacion h3{
+    text-align: center;
+}
+.rfooter{
+    width: 45px;
+    background-position: right;
 }
