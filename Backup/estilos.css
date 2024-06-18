@@ -1,0 +1,155 @@
+/* Perfil CSS */
+
+.fotoperfil {
+    width: 50%;
+    border-radius: 50px;
+    filter: grayscale(100%);
+    transition: all .6s ease;
+    margin-left: 70px;
+    margin-top: -30%;
+    margin-bottom: 25px;
+}
+
+.fotoperfil:hover {
+    filter: none;
+    filter: grayscale(0%);
+    transition: all .6s ease;
+    border-radius: 70px;
+}
+
+.perfil {
+    margin: 25px;
+    border: 5px;
+    border-radius: 15px;
+    background-color: #80d0c7b2;
+    transition: all .6s ease;
+    box-shadow: 10px 5px 5px black;
+}
+
+.perfil:hover {
+    border-radius: 35px;
+    transition: all .6s ease;
+}
+
+p {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    display: inline-block;
+}
+
+h5 {
+    text-align: center;
+}
+
+a {
+    margin: 55px;
+}
+
+body {
+    background-color: white;
+}
+
+/* Index CSS */
+.login {
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    margin: 25px;
+    margin-right: 300px;
+}
+
+.ingrese {
+    border-radius: 5%;
+    background-color: #80D0C7;
+    padding: 30px;
+    margin: 25px;
+}
+
+.inicio {
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.usuario,
+.contrasena {
+    font-weight: bold;
+}
+
+.txtUsuario,
+.txtContrasena {
+    width: 60%;
+}
+
+nav lu {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+}
+/* Menu */
+.menu {
+    background-color: #80D0C7;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+.registrarse,
+.ingresar {
+    color: white;
+}
+
+.imagen {
+    width: 30%;
+    height: 30%;
+}
+
+.dashboard {
+    text-align: center;
+}
+
+.formulario,
+.dashboard {
+    background-color: #80D0C7;
+}
+
+.logo {
+    width: 100%;
+    background-color: #80D0C7;
+}
+
+.imodal {
+    text-decoration: none;
+}
+
+.cajaperfil {
+    width: 25%;
+}
+
+.parrafo {
+    width: 40%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.redes {
+    width: 25%;
+}
+
+.parrafo,
+.redes,
+.cajaperfil {
+    display: inline-block;
+}
