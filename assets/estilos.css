@@ -70,6 +70,7 @@ h2{
     filter: grayscale(100%);
     transition: all .6s ease;
     margin-top: 12px;
+    box-shadow: 10px 5px 5px black;
 }
 
 .fotoperfil:hover {
@@ -88,6 +89,14 @@ h2{
 .redes a{
     margin-left: 32px;
 }
+.redes:hover{
+    -webkit-animation: tiembla 0.1s;
+  }
+  @-webkit-keyframes tiembla{
+    0%  { -webkit-transform:rotateZ(-5deg); }
+    50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
+    100%{ -webkit-transform:rotateZ( 5deg); }
+  }
 .mern{
     margin-top: 12px;
     width: 80%;
