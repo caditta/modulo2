@@ -1,4 +1,4 @@
-.inicio, .quienes-somos {
+.inicio, .quienes-somos, .portafolio {
     background-color: rgba(127, 255, 212, 0.288);
     margin-top: 20px;
     padding-top: 15px;
@@ -29,7 +29,7 @@ h2{
     text-align: left;
     margin-top: 100px;
 }
-.presentacion, .txt-presentacion, .tg-presentacion{
+.presentacion, .txt-presentacion, .tg-presentacion, .perfil{
     border: 2px solid rgba(255, 255, 255, 0.719);
     border-radius: 20px;
     padding: 6px;
@@ -58,6 +58,37 @@ h2{
     text-align: center;
 }
 .rfooter{
+    margin-top: 22px;
     width: 45px;
     background-position: right;
+}
+/* Perfil CSS */
+
+.fotoperfil {
+    width: 60%;
+    border-radius: 50px;
+    filter: grayscale(100%);
+    transition: all .6s ease;
+    margin-top: 12px;
+}
+
+.fotoperfil:hover {
+    filter: none;
+    filter: grayscale(0%);
+    transition: all .6s ease;
+    border-radius: 70px;
+}
+.parrafo{
+    margin-top: 75px;
+    text-align: left;
+}
+.redes{    
+    margin-top: 110px;
+}
+.redes a{
+    margin-left: 32px;
+}
+.mern{
+    margin-top: 12px;
+    width: 80%;
 }

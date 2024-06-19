@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -22,71 +22,65 @@
 </head>
 
 <body>
-    <div class="cabecera">
-        <div class="logo">
-            <img src="https://dummyimage.com/300x100/80D0C7/fff&text=HelpDesk" alt="">
-        </div><br>
-        <div class="menu">
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="#">Quienes Somos</a></li>
-                    <li><a href="#">Planes</a></li>
-                    <li><a href="#">Contactenos</a></li>
-                    <li><a href="portafolio.html">Portafolio</a></li>
-                    <li><a data-toggle="modal" data-target="#ingrese" class="imodal" href="#">Ingresar</a></li>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Yo Pido.com</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quienes-somos.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/planes.html">Planes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Portafolio.html">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dashboard.html">Dashboard</a>
+                    </li>
+
                 </ul>
-            </nav>
+            </div>
         </div>
-        <div class="modal fade" id="ingrese" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Iniciar sesion</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="ingrese">
-                            <h4>Login</h4>
-                            <label for="iusuario" class="usuario">Usuario:</label><br>
-                            <input type="text" name="usuario" id="iusuario" placeholder="Usuario o correo"
-                                class="form-control txtUsuario"><br><br>
-                            <label for="icontrasena" class="contrasena">Contraseña:</label><br>
-                            <input type="password" name="contrasena" id="icontrasena" placeholder="Contraseña"
-                                class="form-control txtContrasena"><br>
-                            <a href="dashboard.html" class="btn btn-info">Ingresar</a>
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                        </div>
-                        <div class="modal-footer">
-                        </div>
-                    </div>
+    </nav>
+    <div class="container-fluid portafolio">
+        <div class="row perfil">
+            <div class="col-md-5">
+                <div>
+                    <img src="../assets/perfil.jpeg" alt="Foto Perfil" class="fotoperfil">
                 </div>
             </div>
+            <div class="col-md-4">
+                <div class="parrafo">
+                    <h3>Carlos Andres Ditta Villa</h3>
+                    <h4>Desarrollador FullStack React</h4>
+                    <h5>Apasionado por la tecnologia, la programacion e interaccion web.</h5>
+                    <h5>Actualmente estudiando en la academia de Enyoi como desarrollador MERN</h5>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="redes">
+                    
+                        <a href="https://github.com/caditta" target="_blank"><img src="../assets/git.png" alt=""></a>
+                        <a href="https://www.linkedin.com/in/caditta/" target="_blank"><img
+                                src="../assets/icons8-linkedin-50.png" alt=""></a>
+                        <img src="../assets/MERN-IMG.png" alt="" class="mern">
+                </div>   
+            </div>
         </div>
-    </div><br>
-    <form action="" class="">
-        <div class="perfil">
-            <div class="cajaperfil">
-                <img src="../assets/perfil.jpeg" alt="Foto Perfil" class="fotoperfil">
-            </div>
-            <div class="parrafo">
-                <h4>Carlos Andres Ditta Villa</h4>
-                <h5>Desarrollador FullStack React</h5>
-                <p>Apasionado por la tecnologia, la programacion e interaccion web.</p>
-                <p>Actualmente estudiando en la academia de Enyoi como desarrollador MERN</p>
-            </div>
-            <div class="redes">
-                <a href="https://github.com/caditta" target="_blank"><img src="../assets/git.png" alt=""></a>
-                <a href="https://www.linkedin.com/in/caditta/" target="_blank"><img src="../assets/icons8-linkedin-50.png" alt=""></a>
-            </div>
-    
-    
-        </div>
-    </form>
-    
+    </div>
+    <footer class="navbar navbar-expand-sm navbar-dark bg-info">
+        <p class="copy"> &copy; Copyright DitSoft.com</p>
+    </footer>
 </body>
 
 </html>
