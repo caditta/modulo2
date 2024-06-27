@@ -87,9 +87,11 @@ h2{
 .redes{    
     margin-top: 110px;
     transition: all .9s ease;
-    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.719);
+    border-radius: 20px;
 }
 .redes a{
+    margin-top: 12px;
     margin-left: 32px;
     
 }
@@ -98,6 +100,8 @@ h2{
     border: 5px whitesmoke;
     transition: all .9s ease;
     box-shadow: 10px 5px 5px black;
+    border: 5px solid rgba(255, 255, 255, 0.719);
+    border-radius: 20px;
   }
 .mern{
     margin-top: 12px;
@@ -107,5 +111,11 @@ h3, h4, h5{
     margin-bottom: 15px;
 }
 .correo{
-    margin-top: 120px;
+    margin-top: 12px;
+}
+.info p{
+    margin-left: 9px;
+}
+#rportafolio, #rindex, #rplanes, #rdashboard, #rsomos{
+    display: none;
 }
