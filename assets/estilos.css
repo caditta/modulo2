@@ -65,12 +65,12 @@ h2{
 /* Perfil CSS */
 
 .fotoperfil {
-    width: 60%;
+    width: 80%;
     border-radius: 50px;
     filter: grayscale(100%);
     transition: all .6s ease;
-    margin-top: 12px;
-    box-shadow: 10px 5px 5px black;
+    margin-top: 22px;
+    margin-left: 50px;
 }
 
 .fotoperfil:hover {
@@ -78,26 +78,34 @@ h2{
     filter: grayscale(0%);
     transition: all .6s ease;
     border-radius: 70px;
+    box-shadow: 10px 5px 5px black;
 }
 .parrafo{
-    margin-top: 75px;
+    margin-top: 25px;
     text-align: left;
 }
 .redes{    
     margin-top: 110px;
+    transition: all .9s ease;
+    border-radius: 15px;
 }
 .redes a{
     margin-left: 32px;
+    
 }
 .redes:hover{
-    -webkit-animation: tiembla 0.1s;
-  }
-  @-webkit-keyframes tiembla{
-    0%  { -webkit-transform:rotateZ(-5deg); }
-    50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
-    100%{ -webkit-transform:rotateZ( 5deg); }
+    border-radius: 15px;
+    border: 5px solid whitesmoke;
+    transition: all .9s ease;
+    box-shadow: 10px 5px 5px black;
   }
 .mern{
     margin-top: 12px;
     width: 80%;
+}
+h3, h4, h5{
+    margin-bottom: 15px;
+}
+.correo{
+    margin-top: 120px;
 }
