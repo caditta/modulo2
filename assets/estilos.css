@@ -85,24 +85,25 @@ h2{
     text-align: left;
 }
 .redes{    
+    padding-top: 20px;
     margin-top: 110px;
     transition: all .9s ease;
     border: 2px solid rgba(255, 255, 255, 0.719);
     border-radius: 20px;
 }
 .redes a{
-    margin-top: 12px;
-    margin-left: 32px;
+    margin-top: 25px;
+    /* margin-left: 32px; */
     
 }
-.redes:hover{
+/* .redes:hover{
     border-radius: 15px;
     border: 5px whitesmoke;
     transition: all .9s ease;
     box-shadow: 10px 5px 5px black;
     border: 5px solid rgba(255, 255, 255, 0.719);
     border-radius: 20px;
-  }
+  } */
 .mern{
     margin-top: 12px;
     width: 80%;
@@ -118,4 +119,13 @@ h3, h4, h5{
 }
 #rportafolio, #rindex, #rplanes, #rdashboard, #rsomos{
     display: none;
+}
+.telefono{
+    margin-top: 25px;
+    background-color: rgb(92, 129, 163);
+    color: antiquewhite;
+    width: 45%;
+    padding: 4px;
+    border-radius: 5px;
+    font-weight: bold;
 }
